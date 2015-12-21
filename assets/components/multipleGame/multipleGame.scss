@@ -1,0 +1,644 @@
+/*
+ *@region*多人游戏主界面
+ **/
+
+.HannotateSC {
+  font-family: 'HannotateSC-W5';
+}
+
+.MultipleGame_mainPage_container {
+
+  background: url("../../img/星空.png");
+  background-size: cover;
+
+  div {
+    width: 100%;
+    height: 25%;
+    position: relative;
+
+  }
+}
+
+.MultipleGame_mainPage_container span {
+  position: absolute;
+  vertical-align: middle;
+  color: white;
+  font-size: 25px;
+  font-family: 'HannotateSC-W5';
+
+}
+
+.MultipleGame_mainPage_container img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+
+}
+
+/*创建任务*/
+
+.MultipleGame_mainPage_taskCreate span {
+  left: 25%;
+  top: 45%;
+  font-family: 'HannotateSC-W5';
+
+}
+
+.MultipleGame_mainPage_taskCreate img {
+  right: 10%;
+  top: 20%;
+
+}
+
+/*我的邀请*/
+
+.MultipleGame_mainPage_myInvitation span {
+  right: 30%;
+  top: 45%;
+  font-family: 'HannotateSC-W5';
+
+}
+
+.MultipleGame_mainPage_myInvitation img {
+  left: 10%;
+  top: 20%;
+
+}
+
+/*历史记录*/
+.MultipleGame_mainPage_history {
+
+  span {
+    right: 40%;
+    top: 45%;
+
+  }
+
+  img {
+    right: 10%;
+    top: 20%;
+
+  }
+}
+
+/*返回箭头*/
+
+.MultipleGame_mainPage_back span {
+  left: 40%;
+  top: 55%;
+  font-family: 'HannotateSC-W5';
+
+}
+
+.MultipleGame_mainPage_back img {
+  left: 40%;
+  top: 20%;
+  width: 50px;
+  height: 50px;
+
+}
+
+/*
+ *@region*多人游戏创建任务界面
+ **/
+.MultipleGame_taskCreatePage_container {
+  background: url("../../img/星空.png");
+  background-size: cover;
+  height: 100%;
+}
+
+.MultipleGame_taskCreatePage_form {
+  background: url("../../img/白色板.png");
+  background-size: cover;
+  position: relative;
+  top: 10%;
+  width: 80%;
+  height: 65%;
+  left: 10%;
+
+}
+
+/*To*/
+.MultipleGame_taskCreatePage_form .To {
+  position: relative;
+  top: 10%;
+  left: 10%;
+
+}
+
+.MultipleGame_taskCreatePage_form .To span {
+  font-size: 22px;
+  margin-right: 5px;
+
+}
+
+/*Task*/
+.MultipleGame_taskCreatePage_form .Task {
+  position: relative;
+  top: 20%;
+  left: 8%;
+  font-size: 25px;
+
+}
+
+.MultipleGame_taskCreatePage_form .Task #task_time_limit {
+  display: inline-block;
+  width: 10%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  text-indent: 0px;
+  text-align: center;
+
+}
+
+.MultipleGame_taskCreatePage_form .Task #task_goal {
+  display: inline-block;
+  width: 23%;
+
+}
+
+/*description*/
+.MultipleGame_taskCreatePage_form .description {
+  top: 30%;
+  position: relative;
+  width: 80%;
+  left: 8%;
+
+}
+
+.MultipleGame_taskCreatePage_form .description #task_description {
+  width: 95%;
+  border: none;
+  margin: 0px;
+  height: auto;
+  min-height: 50px;
+  border: none;
+
+}
+
+/*leave_words*/
+.MultipleGame_taskCreatePage_form .leave_words {
+  top: 35%;
+  position: relative;
+  width: 80%;
+  left: 8%;
+
+}
+
+.MultipleGame_taskCreatePage_form .leave_words #task_leave_words {
+  width: 95%;
+  border: none;
+  margin: 0px;
+  height: auto;
+  min-height: 50px;
+  border: none;
+
+}
+
+/*发送按钮*/
+.MultipleGame_taskCreatePage_form #send {
+  background: url("../../img/按钮L.png");
+  background-size: cover;
+  height: 55px;
+  line-height: 55px;
+  width: 130px;
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+
+}
+
+.MultipleGame_taskCreatePage_form #send > span {
+  color: RGB(226, 77, 37);
+  position: relative;
+  font-size: 25px;
+  left: 29%;
+
+}
+
+/**
+ *@region 我的邀请
+ */
+.MultipleGame_myInvitationPage_container {
+  height: 100%;
+  background: url("../../img/星空.png");
+  background-size: cover;
+}
+
+/*历史记录的容器*/
+.invitation-container {
+  background: url("../../img/星空.png");
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  position: relative;
+  top: 20px;
+
+}
+
+/*历史记录的滚动条*/
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-scrollbar {
+  position: relative;
+
+}
+
+/*历史记录的卡片*/
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation {
+  width: 80%;
+  background: url('../../img/白色板.png');
+  min-width: 300px;
+  position: relative;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .to {
+  position: relative;
+  font-size: 15px;
+  margin-top: 15%;
+  text-align: center;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation #inviter {
+  margin: 5px;
+  font-size: 23px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation #to {
+  margin: 5px;
+  font-size: 23px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .task {
+
+  position: relative;
+  margin: 5% 5% 0px 0px;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .task div {
+  display: inline-block;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .task #task_time_limit {
+  font-size: 23px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .task #task_goal {
+  font-size: 23px;
+
+}
+
+/*操作栏目*/
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .operation > div {
+  background: url("../../img/按钮L.png");
+  background-size: cover;
+  height: 90%;
+  width: 40%;
+  display: inline-block;
+  left: 10%;
+  position: relative;
+  text-align: center;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .operation > div.ignoreButton-center {
+  left: 30%;
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .operation {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  bottom: 10px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .operation span {
+  top: 24%;
+  position: relative;
+  font-size: 20px;
+
+}
+
+.MultipleGame_myInvitationPage_container .invitation-container .swiper-slide-invitation .operation div.ignoreButton span {
+  color: RGB(172, 176, 173);
+}
+
+.MultipleGame_myInvitationPage_container {
+
+  overflow: hidden;
+
+  //邀请的容器
+  .invitation-container {
+
+    .swiper-slide-invitation {
+
+      //margin: 0px 20px;
+
+      //操作区域
+      .operation {
+        div.accpetButton {
+          color: RGB(223, 90, 73);
+        }
+      }
+
+      .task_description {
+        position: relative;
+        min-height: 80px;
+        text-align: center;
+        padding: 5%;
+        line-height: 80px;
+
+      }
+
+      .task_leave_words {
+        position: relative;
+        min-height: 80px;
+        text-align: center;
+        padding: 5%;
+        line-height: 80px;
+
+      }
+    }
+  }
+}
+
+/**
+ *@region 历史记录
+ **/
+.MultipleGame_historyPage_container {
+  background: url("../../img/星空.png");
+  background-size: cover;
+  height: 100%;
+
+  .history_container {
+    background: url("../../img/白色板.png");
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background-size: cover;
+    left: 5%;
+    top: 10%;
+    text-align: center;
+
+    .current {
+      color: RGB(219, 87, 40);
+    }
+
+    .title {
+
+      position: relative;
+      font-size: 30px;
+      text-align: center;
+      margin: 30px 0px;
+      top: 10%;
+      display: inline-block;
+      color: RGB(219, 87, 40);
+
+    }
+
+    .option {
+
+      font-size: 20px;
+      border-bottom: 1px solid;
+      width: 80%;
+      border-radius: 5px;
+      padding-bottom: 10px;
+      text-align: center;
+      left: 10%;
+      position: relative;
+
+      button {
+        width: 45%;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        background: none;
+        border: none;
+
+        :focus {
+          outline: none;
+        }
+      }
+
+      #create {
+        width: 45%;
+        text-align: center;
+      }
+
+      #accept {
+        width: 45%;
+        text-align: center;
+      }
+    }
+
+    /**列表項*/
+    .list {
+      overflow: auto;
+      height: 70%;
+      max-height: 350px;
+
+      .item {
+
+        position: relative;
+        padding: 20px 0px;
+        cursor: pointer;
+
+        .left {
+
+          img {
+            width: 35px;
+            border-radius: 50%;
+            position: absolute;
+            left: 10%;
+          }
+
+        }
+
+        .right {
+
+          position: relative;
+          left: 10%;
+          width: 80%;
+          padding-left: 5%;
+
+          .task {
+            font-size: 20px;
+            text-align: right;
+            padding-right: 30%;
+
+          }
+
+          .duration {
+            font-size: 10px;
+            margin: 5px 0px 0px 0px;
+          }
+
+        }
+
+        .stamp {
+          position: absolute;
+          right: 10%;
+          top: 25%;
+
+          img {
+            width: 50px
+          }
+        }
+
+      }
+    }
+
+  }
+
+}
+
+/**
+ *@region 多人游戏详情
+ **/
+.MultipleGame_detailPage_container {
+  background: url("../../img/星空.png");
+  background-size: cover;
+  height: 100%;
+
+  .detail_container {
+    background: url("../../img/白色板.png");
+    position: relative;
+    width: 90%;
+    height: 70%;
+    background-size: cover;
+    left: 5%;
+    top: 10%;
+    text-align: left;
+
+    .title {
+      font-size: 22px;
+      line-height: 30px;
+      position: relative;
+      left: 20px;
+      top: 30px;
+      width: 90%;
+    }
+
+    .description {
+      width: 90%;
+      left: 5%;
+      position: relative;
+      font-size: 17px;
+      top: 6%;
+      color: RGB(219, 87, 40);
+    }
+
+    .leave_words {
+
+      font-size: 17px;
+      width: 90%;
+      position: relative;
+      left: 5%;
+      top: 7%;
+      line-height: 20px;
+
+    }
+
+    .successPersonList {
+
+      position: relative;
+      top: 10%;
+      width: 90%;
+      left: 5%;
+      font-size: 25px;
+
+      .label {
+        color: RGB(219, 87, 40);
+      }
+
+      .item {
+
+        line-height: 40px;
+        vertical-align: middle;
+        font-size: 15px;
+        position: relative;
+        height: 40px;
+
+        .avatar {
+          line-height: 100%;
+          display: inline-block;
+          position: absolute;
+
+          img {
+            width: 35px;
+            border-radius: 50%;
+            position: absolute;
+            left: 10%;
+          }
+        }
+
+        .name {
+          line-height: 100%;
+          display: inline-block;
+          position: absolute;
+          left: 20%;
+          top: 20%;
+        }
+
+      }
+    }
+
+    .failedPersonList {
+
+      position: relative;
+      width: 90%;
+      left: 5%;
+      top: 10%;
+      font-size: 25px;
+
+      .label {
+        color: RGB(219, 87, 40);
+
+      }
+
+      .item {
+
+        line-height: 40px;
+        vertical-align: middle;
+        font-size: 15px;
+        position: relative;
+        height: 40px;
+
+        .avatar {
+          line-height: 100%;
+          display: inline-block;
+          position: absolute;
+
+          img {
+            width: 35px;
+            border-radius: 50%;
+            position: absolute;
+            left: 10%;
+          }
+        }
+
+        .name {
+          line-height: 100%;
+          display: inline-block;
+          position: absolute;
+          left: 20%;
+          top: 20%;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+

@@ -1,0 +1,914 @@
+//主界面
+.SingleGame_mainPage {
+
+  height: 100%;
+  position: relative;
+  background: url("../../img/星空.png");
+  background-size: cover;
+
+  .fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    //顶部栏目显示
+    .head {
+      color: RGB(235, 216, 115);
+      width: 100%;
+      text-align: center;
+      margin-top: 6%;
+      position: relative;
+
+      span {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+      .energy {
+        width: 50%;
+        display: inline-block;
+        font-family: 'HannotateSC-W5';
+
+        #energy {
+          margin-top: 0px;
+          font-size: 25px;
+
+        }
+        span {
+          font-weight: bold;
+        }
+      }
+
+      .hudong {
+        width: 50%;
+        display: inline-block;
+        font-family: 'HannotateSC-W5';
+
+        #hudong {
+          font-size: 25px;
+        }
+
+        span {
+          font-weight: bold;
+        }
+
+      }
+    }
+
+    .foot {
+      position: absolute;
+      bottom: 8%;
+      z-index: 9999;
+      width: 100%;
+
+      span {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+      }
+
+      img {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        left: 18%;
+      }
+
+      .single {
+        display: inline-block;
+        width: 50%;
+        font-family: 'HannotateSC-W5';
+
+        div {
+          width: 100px;
+          height: 100px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          left: 20%;
+          background-image: url("../../img/单 人.png");
+
+          &.light {
+            background-image: url("../../img/单 人.png");
+          }
+
+          &.dark {
+            background-image: url("../../img/单人dark.png");
+          }
+
+        }
+
+      }
+
+      .multiple {
+        display: inline-block;
+        width: 50%;
+        font-family: 'HannotateSC-W5';
+
+        div {
+
+          background-image: url("../../img/双 人.png");
+          width: 100px;
+          height: 100px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          left: 20%;
+
+          &.light {
+            background-image: url("../../img/双 人.png");
+          }
+
+          &.dark {
+            background-image: url("../../img/双人dark.png");
+          }
+
+        }
+      }
+
+    }
+  }
+
+  .Planet {
+
+    height: 100%;
+
+    .swiper-container-planet {
+      width: 100%;
+      height: 100%;
+
+      .swiper-wrapper {
+
+        .slide-3 {
+          .top {
+            position: absolute;
+            top: 13%;
+            right: 5%;
+
+            .light {
+              background: url("../../img/planets/light/星球9.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 110px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球9.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 110px;
+            }
+          }
+
+          .middle {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+
+            .light {
+              background: url("../../img/planets/light/星球8.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 110px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球8.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 110px;
+            }
+          }
+
+          .bottom {
+
+            position: absolute;
+            bottom: 30%;
+            right: 10%;
+
+            .light {
+              background: url("../../img/planets/light/星球7.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 103px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球7.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 103px;
+            }
+          }
+        }
+
+        .slide-2 {
+          .top {
+            position: absolute;
+            top: 13%;
+            right: 5%;
+
+            .light {
+              background: url("../../img/planets/light/星球6.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 135px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球6.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 135px;
+            }
+          }
+
+          .middle {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+
+            .light {
+              background: url("../../img/planets/light/星球5.png");
+              background-size: cover;
+              height: 100px;
+              width: 110px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球5.png");
+              background-size: cover;
+              height: 100px;
+              width: 110px;
+            }
+          }
+
+          .bottom {
+
+            position: absolute;
+            bottom: 30%;
+            right: 10%;
+
+            .light {
+              background: url("../../img/planets/light/星球4.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 100px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球4.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 100px;
+            }
+          }
+        }
+
+        .slide-1 {
+          .top {
+            position: absolute;
+            top: 13%;
+            right: 15%;
+
+            .light {
+              background: url("../../img/planets/light/星球3.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+
+              height: 100px;
+              width: 140px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球3.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 140px;
+            }
+          }
+
+          .middle {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+
+            .light {
+              background: url("../../img/planets/light/星球2.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 100px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球2.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 100px;
+            }
+          }
+
+          .bottom {
+
+            position: absolute;
+            bottom: 30%;
+            right: 15%;
+
+            .light {
+              background: url("../../img/planets/light/星球1.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 120px;
+            }
+
+            .dark {
+              background: url("../../img/planets/dark/星球1.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100px;
+              width: 120px;
+            }
+          }
+        }
+
+      }
+    }
+
+    .swiper-slide-planet {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  }
+
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container {
+  background-image: url("../../img/星空.png");
+  background-size: cover;
+
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container .energy {
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  color: #EBD873;
+  font-size: 25px;
+  font-family: 'HannotateSC-W5';
+  z-index: 90;
+  font-weight: bold
+
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container .energy div:nth-child(1) {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'HannotateSC-W5';
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container .hudong {
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #EBD873;
+  font-size: 25px;
+  font-family: 'HannotateSC-W5';
+  z-index: 90;
+  font-weight: bold
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container .hudong div:nth-child(1) {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'HannotateSC-W5';
+}
+
+/*弹窗界面*/
+.SingleGame_planetDetailPageBeforeExploring_container .dialog {
+  position: relative;
+  background-image: url("../../img/弹窗.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000000;
+  top: 13%;
+  height: 75%;
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container {
+  .dialog {
+    .planetName {
+      vertical-align: middle;
+      text-align: center;
+      position: relative;
+      font-size: 35px;
+      top: -8%;
+      font-family: 'HannotateSC-W5';
+    }
+
+    .progress {
+      color: red;
+      position: relative;
+      vertical-align: middle;
+      text-align: center;
+      margin-top: -12%;
+      font-family: 'HannotateSC-W5';
+    }
+  }
+}
+
+.SingleGame_planetDetailPageBeforeExploring_container .dialog .description {
+  text-align: center;
+  width: 70%;
+  max-width: 720px;
+  left: 15%;
+  position: relative;
+  right: 5%;
+  font-size: 17px;
+  line-height: 30px;
+  margin: 10px 0px;
+  max-height: 230px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+//单人游戏-星球详情
+.SingleGame_planetDetailPageBeforeExploring_container {
+  .dialog {
+    .operation {
+
+      height: 15%;
+      position: absolute;
+      width: 100%;
+      bottom: 13%;
+      text-align: center;
+
+      div {
+        width: 25%;
+        height: 80%;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+      }
+
+      span {
+        color: white;
+        font-size: 25px;
+        position: relative;
+        top: 25%;
+      }
+
+      .boost {
+        background: url("../../img/按钮2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        //left: 20%;
+        width: 20%;
+        top: 12px;
+        left: -5%;
+
+        span {
+          top: 23%;
+          font-size: 18px;
+        }
+
+      }
+
+      .start {
+        background: url("../../img/按钮1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20%;
+        top: 12px;
+        left: 5%;
+        span {
+          top: 23%;
+          font-size: 18px;
+        }
+
+      }
+
+      .share {
+        background: url("../../img/按钮1.png");
+        background-size: cover;
+        width: 20%;
+        height: 60%;
+        top: 20%;
+
+        span {
+          font-size: 15px;
+        }
+      }
+
+      .treasureHunter {
+        background: url("../../img/按钮1.png");
+        background-size: cover;
+        width: 20%;
+        height: 60%;
+        top: 20%;
+
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+//单人游戏-星球加速
+.SingleGame_planetBoostPage_container {
+  background-image: url("../../img/星空.png");
+  background-size: cover;
+  height: 100%;
+
+  .dialog {
+    position: relative;
+    background-image: url("../../img/弹窗.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000000;
+    top: 10%;
+    height: 75%;
+
+    .description {
+      text-align: center;
+      position: relative;
+      top: 35%;
+      font-size: 20px;
+      line-height: 40px;
+
+      #jifen {
+        color: RGB(222, 82, 39);
+        margin: 0px 10px;
+      }
+
+      #tianshu {
+        color: RGB(222, 82, 39);
+        margin: 0px 10px;
+      }
+
+    }
+
+    //操作部份
+    .operation {
+
+      background: url("../../img/按钮1.png");
+      background-size: cover;
+      position: absolute;
+      height: 10%;
+      width: 21%;
+      bottom: 20%;
+      left: 40%;
+      text-align: center;
+
+      span {
+        color: RGB(222, 82, 39);
+        font-size: 20px;
+        position: relative;
+        margin-top: 17%;
+        display: inline-block;
+      }
+
+    }
+
+  }
+}
+
+//单人游戏-正在游戏
+.SingleGame_planetOnPage_container {
+  background-image: url("../../img/星空.png");
+  background-size: cover;
+  height: 100%;
+
+  .label {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 30%;
+    font-size: 36px;
+    word-spacing: normal;
+    letter-spacing: 2px;
+  }
+
+  .progress {
+    position: relative;
+    top: 60%;
+
+    img, div {
+      position: absolute;
+    }
+
+    #qi {
+      width: 50px;
+      height: 50px;
+      right: 5%;
+      bottom: -18px;
+      z-index: 9;
+      background: url("../../img/进度条旗.png");
+      background-size: cover;
+    }
+
+    #xingqiu {
+      width: 70px;
+      height: 65px;
+      left: 9%;
+      bottom: -45px;
+    }
+
+    #progress {
+      height: 30px;
+      width: 75%;
+      left: 15%;
+    }
+
+    #target{
+      right: 10%;
+      z-index: 9;
+      bottom: -50px;
+      color: white;
+    }
+  }
+
+  .operation {
+
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    width: 100%;
+    height: 20%;
+
+    > div {
+      display: inline-block;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    span {
+      display: block;
+      font-size: 20px;
+      margin: 30px 0px;
+    }
+
+    .back {
+      position: relative;
+      left: -10%;
+      top: 10%;
+    }
+
+    .giveUp {
+      position: relative;
+      top: 10%;
+      right: -10%;
+    }
+  }
+
+  //模态框操作部分
+  .dialog-option-ok {
+    position: absolute;
+    bottom: 23%;
+    width: 25%;
+    height: 11%;
+    text-align: center;
+    font-size: 25px;
+    background: url("../../img/按钮1.png");
+    background-size: cover;
+    left: 38%;
+    vertical-align: middle;
+
+    span {
+      position: relative;
+      top: 20%;
+      font-family: HannotateSC-W5;
+    }
+
+  }
+
+  //Prompt窗體部份
+  .dialog-option-giveUp {
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    height: 10%;
+    line-height: 10%;
+
+    font-family: "HannotateSC-W5", serif;
+
+    .cancel {
+      position: relative;
+      display: inline-block;
+      height: 50px;
+      background: url("../../img/按钮1.png");
+      width: 80px;
+      background-size: cover;
+      color: black;
+      text-align: center;
+      left: 25%;
+
+      span {
+        position: relative;
+        top: 50%;
+      }
+    }
+
+    .giveUp {
+      position: relative;
+      display: inline-block;
+      height: 50px;
+      background: url("../../img/按钮2.png");
+      width: 80px;
+      background-size: cover;
+      color: black;
+      text-align: center;
+      left: 35%;
+
+      span {
+        position: relative;
+        top: 50%;
+      }
+    }
+  }
+}
+
+//单人开始游戏
+.SingleGame_planetStartPage_container {
+  position: relative;
+  background: url("../../img/星空.png");
+  background-size: cover;
+  .dialog {
+    position: relative;
+    background-image: url("../../img/白色板.png");
+    background-repeat: no-repeat;
+    background-size: 90% 80%;
+    color: #000000;
+    top: 13%;
+    left: 18px;
+    height: 50%;
+    .span1 {
+      position: absolute;
+      left: 35px;
+      top: 20px;
+      font-size: 28px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span2 {
+      position: absolute;
+      left: 102px;
+      top: 95px;
+      font-size: 28px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span3 {
+      position: absolute;
+      left: 35px;
+      top: 185px;
+      font-size: 28px;
+      color: #444444;
+      font-weight: bold;
+    }
+
+  }
+  .button {
+    background: url("../../img/按钮L.png");
+    background-size: cover;
+    // background: red;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 280px;
+    position: absolute;
+    bottom: 140px;
+    left: 12%;
+    text-align: center;
+    .span1 {
+      position: absolute;
+      left: 85px;
+      top: 20px;
+      font-size: 28px;
+      color: crimson;
+      font-weight: bold;
+
+    }
+    .span2 {
+      position: absolute;
+      left: 80px;
+      top: 60px;
+      font-size: 28px;
+      color: crimson;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+//解锁界面
+.SingleGame_planetUnlockPage_container {
+  position: relative;
+  background: url("../../img/星空.png");
+  background-size: cover;
+  .dialog {
+    position: relative;
+    background-image: url("../../img/弹窗.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000000;
+    top: 10%;
+    height: 75%;
+    .span1 {
+      position: absolute;
+      left: 133px;
+      top: 88px;
+      font-size: 28px;
+      color: red;
+      font-weight: bold;
+    }
+    .span2 {
+      position: absolute;
+      left: 108px;
+      top: 146px;
+      font-size: 24px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span3 {
+      position: absolute;
+      left: 118px;
+      top: 175px;
+      font-size: 24px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span4 {
+      position: absolute;
+      left: 108px;
+      top: 236px;
+      font-size: 24px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span5 {
+      position: absolute;
+      left: 130px;
+      top: 265px;
+      font-size: 24px;
+      color: #444444;
+      font-weight: bold;
+    }
+    .span6 {
+      position: absolute;
+      left: 154px;
+      top: 365px;
+      font-size: 28px;
+      color: red;
+      font-weight: bold;
+    }
+
+  }
+
+}
+

@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "multiGameList": [
+    {
+      "task_description": "去死1",
+      "to_who": "heheda",
+      "task_create_time": 1441276696000,
+      "user_id": "143218500373424379",
+      "task_end_time": 1443613978000,
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 10,
+      "_id": 9,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "receptNum": 2,
+      "task_schedule":"5"
+    },
+    {
+      "task_description": "去死2",
+      "to_who": "heheda",
+      "task_create_time": 1441276696000,
+      "user_id": "143218500373424379",
+      "task_end_time": 1443613978000,
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 10,
+      "_id": 9,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "receptNum": 2,
+      "task_schedule":"3"
+    },
+    {
+      "task_description": "去死3",
+      "to_who": "heheda",
+      "task_create_time": 1441276696000,
+      "user_id": "143218500373424379",
+      "task_end_time": 1443613978000,
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 10,
+      "_id": 9,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "receptNum": 2,
+      "task_schedule":"4"
+    },
+    {
+      "task_description": "去死4",
+      "to_who": "heheda",
+      "task_create_time": 1441276696000,
+      "user_id": "143218500373424379",
+      "task_end_time": 1443613978000,
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 10,
+      "_id": 9,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "receptNum": 2,
+      "task_schedule":"4"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+/*
+ * @function 部分通用布局
+ */
+.common_back {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+}
+
+.common_back img {
+    width: 50px;
+    position: relative;
+    left: 43%;
+}
+
+.common_back span {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+
+/*将container设置为relative以方便之后的absolute布局*/
+div#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
+
+input[type="text"], input[type="number"], textarea {
+    -webkit-user-select: text;
+}
+
+/*iOS專屬*/
+* {
+    cursor: pointer;
+}
+

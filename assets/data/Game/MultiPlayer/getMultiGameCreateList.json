@@ -1,0 +1,70 @@
+{
+
+  "code": 0,
+  "subCode": -1,
+  "multiGameList":
+
+  [
+
+    {
+
+      "task_description": "快来看发光哔狗。。。",
+      "to_who": "发光",
+      "task_create_time": 1441011056000,
+      "user_id": "143218500373424379",
+      "task_leave_words": "煞笔",
+      "task_state": "0",
+      "task_id": 2,
+      "task_time_limit": 10,
+      "task_goal": 90000,
+      "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924",
+      "receptNum": 0
+
+    },
+    {
+
+      "task_description": "去死",
+      "to_who": "heheda",
+      "task_create_time": 1441271339000,
+      "user_id": "143218500373424379",
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 8,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924",
+      "receptNum": 0
+
+    },
+    {
+
+      "task_description": "去死",
+      "to_who": "heheda",
+      "task_create_time": 1441269156000,
+      "user_id": "143218500373424379",
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 9,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924",
+      "receptNum": 0
+
+    },
+
+    {
+      "task_description": "去死",
+      "to_who": "heheda",
+      "task_create_time": 1441276696000,
+      "user_id": "143218500373424379",
+      "task_leave_words": "去死吧",
+      "task_state": "0",
+      "task_id": 10,
+      "task_time_limit": 3,
+      "task_goal": 6000,
+      "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924",
+      "receptNum": 3
+    }
+  ]
+
+}

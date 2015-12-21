@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "invitationList": [
+    {
+      "task_description": "hehe",
+      "to_who": "hhhh",
+      "task_create_time": 1441470370000,
+      "user_id": "14321850037342437",
+      "user_nickname": "-10086",
+      "task_leave_words": "hehe",
+      "task_state": "0",
+      "task_id": 5,
+      "task_time_limit": 500,
+      "task_goal": 300
+    },
+    {
+      "task_description": "hehe",
+      "to_who": "hhhh",
+      "task_create_time": 1441470370000,
+      "user_id": "14321850037342437",
+      "user_nickname": "-10086",
+      "task_leave_words": "hehe",
+      "task_state": "0",
+      "task_id": 6,
+      "task_time_limit": 500,
+      "task_goal": 300
+    },
+    {
+      "task_description": "hehe",
+      "to_who": "hhhh",
+      "task_create_time": 1441470370000,
+      "user_id": "14321850037342437",
+      "user_nickname": "-10086",
+      "task_leave_words": "hehe",
+      "task_state": "0",
+      "task_id": 7,
+      "task_time_limit": 500,
+      "task_goal": 300
+    },
+    {
+      "task_description": "hehe",
+      "to_who": "hhhh",
+      "task_create_time": 1441470370000,
+      "user_id": "14321850037342437",
+      "user_nickname": "-10086",
+      "task_leave_words": "hehe",
+      "task_state": "0",
+      "task_id": 8,
+      "task_time_limit": 500,
+      "task_goal": 300
+    },
+    {
+      "task_description": "hehe",
+      "to_who": "hhhh",
+      "task_create_time": 1441470370000,
+      "user_id": "14321850037342437",
+      "user_nickname": "-10086",
+      "task_leave_words": "hehe",
+      "task_state": "0",
+      "task_id": 9,
+      "task_time_limit": 500,
+      "task_goal": 300
+    }
+  ]
+}

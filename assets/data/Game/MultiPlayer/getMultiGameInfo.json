@@ -1,0 +1,38 @@
+{
+  "code": 0,
+  "multiGameInfo": {
+    "task_description": "快来看发光哔狗。。。",
+    "successPersonList": [
+      {
+        "user_nickname": "用户昵称_1",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      },
+      {
+        "user_nickname": "用户昵称_2",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      },
+      {
+        "user_nickname": "用户昵称_3",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      }
+    ],
+    "task_leave_words": "煞笔",
+    "task_time_limit": 10,
+    "failedPersonList": [
+      {
+        "user_nickname": "用户昵称_4",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      },
+      {
+        "user_nickname": "用户昵称_5",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      },
+      {
+        "user_nickname": "用户昵称_6",
+        "user_logo_img_path": "http://7sbpfh.com1.z0.glb.clouddn.com/@/business/0/2015-06-13 18:30:35/-1807485879/1441436560924"
+      }
+    ],
+    "task_goal": 90000,
+    "receptNum": 3
+  }
+}
